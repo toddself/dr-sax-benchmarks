@@ -1,0 +1,22 @@
+{
+  "name": "dr-sax-benchmarks",
+  "version": "0.0.0",
+  "description": "Benchmarking Dr. Sax against other HTML to Markdown editors",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/toddself/dr-sax-benchmarks"
+  },
+  "author": "Todd Kennedy",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^1.0.0",
+    "dr-sax": "^1.0.0",
+    "html-md": "^3.0.2",
+    "pdc": "^0.1.2",
+    "upndown": "0.0.7"
+  }
+}
