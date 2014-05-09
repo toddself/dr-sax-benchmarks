@@ -1,1 +1,1 @@
-Benchmarks for [dr-sax](/toddself/dr-sax)
+Benchmarks for [dr-sax](https://github.com/toddself/dr-sax)
