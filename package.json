@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "benchmark": "~1.0.0",
-    "dr-sax": "~1.0.5",
+    "dr-sax": "~1.0.7",
     "hammerdown": "0.0.18",
     "html-md": "~3.0.2",
     "html2markdown": "~1.1.0",
