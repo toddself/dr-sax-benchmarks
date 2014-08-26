@@ -4,6 +4,7 @@ var DrSax = require('dr-sax');
 var md = require('html-md');
 var Upndown = require('upndown');
 var pdc = require('pdc');
+var tomd = require('to-markdown').toMarkdown;
 var Benchmark = require('benchmark');
 
 var suite = new Benchmark.Suite('html to markdown');
@@ -21,6 +22,9 @@ suite
   .add('upndown', function(){
     var und = new Upndown();
     und.convert(testString);
+  })
+  .add('to-markdown', function(){
+    tomd(testString);
   })
   .add('pdc', {
     defer: true,
